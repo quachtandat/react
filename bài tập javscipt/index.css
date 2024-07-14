@@ -1,0 +1,45 @@
+
+/* CSS cho giao diện */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 20px;
+}
+#taskInput {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+#addBtn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.taskItem {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.taskItem.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.deleteBtn {
+  float: right;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#hint {
+    display: block;
+    color: #999;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
